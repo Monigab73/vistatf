@@ -2,7 +2,6 @@ img{
     width: 100px;
     height: 50;
 }
-
 .row{
     display: flex;
     padding: 20px;
@@ -32,12 +31,8 @@ div{
       top: 630px;
     }  
   }
-  
-
-
 /* etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 30%;
-  
 }
