@@ -2,15 +2,42 @@ img{
     width: 100px;
     height: 50;
 }
-p{
-    margin-top: 0;
-    margin-bottom: 1em;
-    box-sizing: border-box;
-    display: block;
-    margin-block-start: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
+
 .row{
     display: flex;
+    padding: 20px;
+}
+div{
+    background-color:rgb(126, 106, 243);
+    text-align: center;
+}
+/*Estilo de foto de perfil*/
+@media(min-width: 576px){
+  #FotoDePerfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left:3%;
+    top: 600px;
+  }  
+}
+@media(max-width: 575px){
+    #FotoDePerfil{
+      position: absolute;
+      width: 30%;
+      border-radius: 100%;
+      box-shadow: 3px 3px 3px grey;
+      left:33%;
+      top: 630px;
+    }  
+  }
+  
+
+
+/* etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+  
 }
