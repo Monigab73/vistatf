@@ -18,7 +18,7 @@ div{
     border-radius: 100%;
     box-shadow: 3px 3px 3px grey;
     left:3%;
-    top: 600px;
+    top: 400px;
   }  
 }
 @media(max-width: 575px){
@@ -28,7 +28,7 @@ div{
       border-radius: 100%;
       box-shadow: 3px 3px 3px grey;
       left:33%;
-      top: 630px;
+      top: 580px;
     }  
   }
 /* etiqueta nombre*/

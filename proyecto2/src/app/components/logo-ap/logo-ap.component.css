@@ -1,3 +1,30 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes img{
+    width: 40px;
+    margin-right: 0.5em;
+}
 #logoAP{
     width: 300;
+}
+.btn{
+    margin-right: 0.5em; 
+    border-width: medium;
+}
+/*----Para la lista de celular----*/
+@media(max-width:575px){
+ .container {
+    flex-direction: column;
+  }
+ .redes{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+  }
+ .redes img{
+    margin: 0.2em;
+  }
 }

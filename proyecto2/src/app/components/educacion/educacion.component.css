@@ -4,7 +4,6 @@
 div{
     background-color:rgb(126, 106, 243) ;
 }
-h3,h4,h5,p,img{
-    display:column;
-    
+h1,h3{
+    display: inline;
 }
